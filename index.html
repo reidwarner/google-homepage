@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<style>
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+    li{  
+        display: inline;
+    }
+    .store{
+        padding-left: 2em;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    .signin{
+        float: inline-end;
+    }
+    .signinbutton{
+        background-color: blue;
+        width: 7em;
+        height: 2.5em;
+        border-radius: 20% 20% 20% 20%;
+        color: white;
+    }
+    .gmail{
+        float: inline-end;
+        padding-right: 2em;
+    }
+    .images{
+        float: inline-end;
+        padding-right: 7em;
+    }
+    .searchbars{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        width: 40em;
+        height: 3em;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16em;
+    }
+    .subb{
+        float:left;
+        margin-left: 33%;
+        margin-top: 1em;
+        background-color: rgb(245, 245, 245);
+        border: none;
+        height: 2em;
+        width: 10em;
+    }
+    .feel{
+        float:right;
+        margin-right: 33%;
+        margin-top: 1em;
+        background-color: rgb(245, 245, 245);
+        border: none;
+        height: 2em;
+        width: 10em;
+    }
+</style>
+<html>
+    <div>
+        <ul>
+            <li>About</li>
+            <li class="store">Store</li>
+            <li class="signin"><button class="signinbutton" type="submit" value="Sign in"></button></li>
+            <li class="images">Images</li>
+            <li class="gmail">Gmail</li>
+            
+            
+        </ul>
+    </div>
+    <body>
+        <img class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <form>
+            <input type="search" class="searchbars">
+            <input type="submit" class="subb" value="Google Search">
+            <input type="submit" class="feel" value="I'm Feeling Lucky">
+        </form>
+        
+    </body>
+</html>
